@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'HuledeFuego'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_4c9ac554d47144ec9ef15588e6011b51 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e26f044a075d45149871a60535dd8f15 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
